@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <style>
+    p{
+        font-family: roboto, arial;
+    }
+    body{
+        display: grid;
+        place-items: center;
+        background-color:rgba(0, 0, 0, 0.76) ;
+        margin-top: 50px;
+    }
+
+    .container{
+        display: flex;
+       background-color: goldenrod;
+        flex-direction: column;
+        width: 1000px;
+        align-items: center;
+        height: 700px;
+       flex-shrink: 0;
+        padding-top: 20px;
+    }
+ .thumbnail{
+       height: 130px; 
+       width: 220px;
+       border-radius: 5px;
+       display: block;
+    }
+
+    .thumbnail-div{
+        display: flex;
+        border-radius: 10px;
+       display: block;
+    }
+    .button{
+        height: 30px;
+        width: 80px;
+        color: black;
+        font-weight: bold;
+        background-color: rgb(235, 173, 17);
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .p-1{
+      font-size: 17px;
+      font-weight: bold;  
+      color: rgba(110, 107, 107, 0.76);
+    }
+    .p-2{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: -5px;
+    }
+
+    .p-3{
+        font-size: 14px;
+        color: gray;
+        width: 250px;
+        margin-top: -5px;
+        line-height: 20px;
+    }
+
+    .profile-picture{
+        width: 50px;
+        display: inline-block;
+        display: flex;
+        margin-top: 20px;
+        position: relative;
+      
+    }
+    .p-4{
+      display: inline-block;  
+      display: flex;
+      position: absolute;
+top: 20px;
+      font-weight: bold;
+      left: 60px;
+     
+  
+    }
+    .div-1{
+        display: flex;
+        position: relative;
+        bottom: 0;
+        top: 200;
+       
+    }
+    .div2{
+        width: 270px;
+background-color: white;
+display: flex;
+      padding-left: 30px;
+        flex-direction: column;
+        display: inline-block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 100px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+       
+        flex-shrink: 0;
+       
+
+
+    }
+   </style>
+</head>
+<body>
+   <div class="container">
+    <div class="div2">
+        <div class="thumbnail-div">
+            <img class="thumbnail" src="thumbnail/illustration-article.svg" alt="">
+        </div>
+        <button class="button">Learning</button>
+        <p class="p-1">Published 21 Dec 2023</p>
+        <p class="p-2">HTML & CSS foundations</p>
+        
+        <p class="p-3">these languages are the backbone of every website defining structure content and presentation.</p>
+      <div class="div-1">
+        <img class="profile-picture" src="image-avatar.webp" alt="">
+        <p class="p-4">Greg Hooper</p>
+      </div>
+       
+    </div>
+
+</div>
+
+</body>
+</html>
